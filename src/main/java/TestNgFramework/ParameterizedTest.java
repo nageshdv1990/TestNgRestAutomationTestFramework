@@ -28,7 +28,7 @@ public class ParameterizedTest {
                 then().
                 log().body().
                 assertThat().contentType(ContentType.JSON).
-                assertThat().statusCode(200).
+                assertThat().statusCode(201).
                 assertThat().body("places[0].'place name'",equalTo(location));
 
     }
