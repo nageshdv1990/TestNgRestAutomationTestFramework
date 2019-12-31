@@ -5,6 +5,7 @@
         <classes>
             <class name="TestNgFramework.Test1"></class>
             <class name="TestNgFramework.Test2"></class>
+            <class name="TestNgFramework.ParameterizedTest"></class>
         </classes>
     </test>
 </suite>

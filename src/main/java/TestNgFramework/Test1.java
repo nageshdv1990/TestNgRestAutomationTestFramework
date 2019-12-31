@@ -2,6 +2,11 @@ package TestNgFramework;
 
 import org.testng.annotations.*;
 
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.equalTo;
+import io.restassured.http.ContentType;
+
+
 public class Test1 {
 
     @BeforeMethod
@@ -63,4 +68,9 @@ public class Test1 {
     public void dummyTestForTestng3(){
         System.out.println("Dummy Test 3");
     }
+
+
+
 }
+
+
